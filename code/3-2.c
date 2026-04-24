@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
    
     for (int i = argc - 1; i > 0; i--)
     {
-        for (int j = 0; j < argc - 1 - (argc-2); j++)
+        for (int j = 0; j < i; j++)
         {
             if (strcmp(argv[j], argv[j+1]) > 0)
             {
